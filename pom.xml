@@ -118,7 +118,7 @@
     <flink.version>1.13.1</flink.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.1.2</spark3.version>
-    <spark2bundle.version></spark2bundle.version>
+    <spark2bundle.version/>
     <spark3bundle.version>3</spark3bundle.version>
     <hudi.spark.module>hudi-spark2</hudi.spark.module>
     <avro.version>1.8.2</avro.version>
@@ -147,11 +147,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <main.basedir>${project.basedir}</main.basedir>
     <spark.bundle.hive.scope>provided</spark.bundle.hive.scope>
-    <spark.bundle.hive.shade.prefix />
+    <spark.bundle.hive.shade.prefix/>
     <spark.bundle.avro.scope>compile</spark.bundle.avro.scope>
     <spark.bundle.spark.shade.prefix>org.apache.hudi.spark.</spark.bundle.spark.shade.prefix>
     <utilities.bundle.hive.scope>provided</utilities.bundle.hive.scope>
-    <utilities.bundle.hive.shade.prefix />
+    <utilities.bundle.hive.shade.prefix/>
     <argLine>-Xmx2g</argLine>
     <jacoco.version>0.8.5</jacoco.version>
     <presto.bundle.bootstrap.scope>compile</presto.bundle.bootstrap.scope>
@@ -159,7 +159,7 @@
     <shadeSources>true</shadeSources>
     <zk-curator.version>2.7.1</zk-curator.version>
     <antlr.version>4.7</antlr.version>
-    <aws.sdk.version>1.12.22</aws.sdk.version>
+    <aws.sdk.version>1.12.558</aws.sdk.version>
     <proto.version>3.17.3</proto.version>
     <protoc.version>3.1.0</protoc.version>
     <dynamodb.lockclient.version>1.1.0</dynamodb.lockclient.version>
@@ -397,7 +397,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
