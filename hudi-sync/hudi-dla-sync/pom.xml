@@ -32,7 +32,7 @@
     <hadoop.aliyun.version>3.2.1</hadoop.aliyun.version>
     <mysql.connector.java.version>5.1.47</mysql.connector.java.version>
     <aliyun.sdk.oss.version>3.1.0</aliyun.sdk.oss.version>
-    <aliyun.java.sdk.core.version>3.7.1</aliyun.java.sdk.core.version>
+    <aliyun.java.sdk.core.version>4.0.0</aliyun.java.sdk.core.version>
   </properties>
 
   <dependencies>
