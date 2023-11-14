@@ -88,7 +88,7 @@
 
     <java.version>1.8</java.version>
     <fasterxml.version>2.6.7</fasterxml.version>
-    <fasterxml.jackson.databind.version>2.6.7.3</fasterxml.jackson.databind.version>
+    <fasterxml.jackson.databind.version>2.7.9.6</fasterxml.jackson.databind.version>
     <fasterxml.jackson.module.scala.version>2.6.7.1</fasterxml.jackson.module.scala.version>
     <fasterxml.jackson.dataformat.yaml.version>2.7.4</fasterxml.jackson.dataformat.yaml.version>
     <fasterxml.spark3.version>2.10.0</fasterxml.spark3.version>
@@ -118,7 +118,7 @@
     <flink.version>1.13.1</flink.version>
     <spark2.version>2.4.4</spark2.version>
     <spark3.version>3.1.2</spark3.version>
-    <spark2bundle.version></spark2bundle.version>
+    <spark2bundle.version/>
     <spark3bundle.version>3</spark3bundle.version>
     <hudi.spark.module>hudi-spark2</hudi.spark.module>
     <avro.version>1.8.2</avro.version>
@@ -133,7 +133,7 @@
     <thrift.version>0.12.0</thrift.version>
     <jetty.version>9.4.15.v20190215</jetty.version>
     <htrace.version>3.1.0-incubating</htrace.version>
-    <hbase.version>1.2.3</hbase.version>
+    <hbase.version>2.0.0</hbase.version>
     <codehaus-jackson.version>1.9.13</codehaus-jackson.version>
     <h2.version>1.4.199</h2.version>
     <awaitility.version>3.1.2</awaitility.version>
@@ -147,11 +147,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <main.basedir>${project.basedir}</main.basedir>
     <spark.bundle.hive.scope>provided</spark.bundle.hive.scope>
-    <spark.bundle.hive.shade.prefix />
+    <spark.bundle.hive.shade.prefix/>
     <spark.bundle.avro.scope>compile</spark.bundle.avro.scope>
     <spark.bundle.spark.shade.prefix>org.apache.hudi.spark.</spark.bundle.spark.shade.prefix>
     <utilities.bundle.hive.scope>provided</utilities.bundle.hive.scope>
-    <utilities.bundle.hive.shade.prefix />
+    <utilities.bundle.hive.shade.prefix/>
     <argLine>-Xmx2g</argLine>
     <jacoco.version>0.8.5</jacoco.version>
     <presto.bundle.bootstrap.scope>compile</presto.bundle.bootstrap.scope>
@@ -397,7 +397,7 @@
               <license implementation="org.apache.rat.analysis.license.SimplePatternBasedLicense">
                 <licenseFamilyCategory>AL2 </licenseFamilyCategory>
                 <licenseFamilyName>Apache License 2.0</licenseFamilyName>
-                <notes />
+                <notes/>
                 <patterns>
                   <pattern>Licensed to the Apache Software Foundation (ASF) under one</pattern>
                 </patterns>
@@ -1495,7 +1495,7 @@
         <scalatest.version>3.1.0</scalatest.version>
         <kafka.version>2.4.1</kafka.version>
         <fasterxml.version>${fasterxml.spark3.version}</fasterxml.version>
-        <fasterxml.jackson.databind.version>${fasterxml.spark3.version}</fasterxml.jackson.databind.version>
+        <fasterxml.jackson.databind.version>2.7.9.6</fasterxml.jackson.databind.version>
         <fasterxml.jackson.module.scala.version>${fasterxml.spark3.version}</fasterxml.jackson.module.scala.version>
         <fasterxml.jackson.dataformat.yaml.version>${fasterxml.spark3.version}</fasterxml.jackson.dataformat.yaml.version>
         <skip.hudi-spark2.unit.tests>true</skip.hudi-spark2.unit.tests>
